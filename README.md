@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/stemvrseDjangoAppDevOps/stemvrse/_apis/build/status/jd-murphy.pipelines-python-django)](https://dev.azure.com/stemvrseDjangoAppDevOps/stemvrse/_build/latest?definitionId=2)
+
 # Sample Python app for Azure Pipelines docs
 
 For information on how to use this repository, see [Python](https://docs.microsoft.com/azure/devops/pipelines/languages/python).
