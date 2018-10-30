@@ -35,9 +35,9 @@ steps:
 
 - script: |
     pushd '$(projectRoot)'
-    python manage.py test --testrunner xmlrunner.extra.djangotestrunner.XMLTestRunner --no-input
+    python manage.py runserver
   condition: succeededOrFailed()
-  displayName: 'Run tests'
+  displayName: 'Run server'
 
 - task: PublishTestResults@2
   inputs:
